@@ -183,31 +183,31 @@ if (isset($message)){
             <div class="box" data-aos="zoom-in">
                 <i class="fab fa-bootstrap"></i>
                 <h3>Bootstrap</h3>
-                <p>Web Developer Front-End & Back-End</p>
+                <p>Responsive and Mobile Websites</p>
             </div>
 
             <div class="box" data-aos="zoom-in">
                 <i class="fab fa-wordpress"></i>
                 <h3>Wordpress</h3>
-                <p>Web Developer Front-End & Back-End</p>
+                <p>Blog Tool, Publishing Platform, and CMS</p>
             </div>
 
             <div class="box" data-aos="zoom-in">
                 <i class="fa-solid fa-laptop-code"></i>
                 <h3>Software developer</h3>
-                <p>Web Developer Front-End & Back-End</p>
+                <p>Creating, Designing, Building, Deploying, and Maintaining/p>
             </div>
 
             <div class="box" data-aos="zoom-in">
                 <i class="fas fa-bullhorn"></i>
                 <h3>Digital Marketing</h3>
-                <p>Web Developer Front-End & Back-End</p>
+                <p>Online Marketing , Social Media</p>
             </div>
 
             <div class="box" data-aos="zoom-in">
                 <i class="fas fa-paint-brush"></i>
                 <h3>Graphique Designer</h3>
-                <p>Web Developer Front-End & Back-End</p>
+                <p>Designing Flyers, Banners, Logo, Graphics, Artwork</p>
             </div>
 
         </div>
