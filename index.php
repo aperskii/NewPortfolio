@@ -195,13 +195,13 @@ if (isset($message)){
             <div class="box" data-aos="zoom-in">
                 <i class="fa-solid fa-laptop-code"></i>
                 <h3>Software developer</h3>
-                <p>Creating, Designing, Building, Deploying, and Maintaining/p>
+                <p>Creating, Designing, Building, Deploying, and Maintaining</p>
             </div>
 
             <div class="box" data-aos="zoom-in">
                 <i class="fas fa-bullhorn"></i>
                 <h3>Digital Marketing</h3>
-                <p>Online Marketing , Social Media</p>
+                <p>Online Marketing , Social Media, Web-Based Advertising</p>
             </div>
 
             <div class="box" data-aos="zoom-in">
