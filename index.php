@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect('localhost','root','','contact_db') or die('connection failed');
+$conn = mysqli_connect('hostname','username','database_password','database_name') or die('connection failed');
 
 if (isset($_POST['send'])){
 
