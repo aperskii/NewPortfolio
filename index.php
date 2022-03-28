@@ -8,14 +8,28 @@ if (isset($_POST['send'])){
     $email = mysqli_real_escape_string($conn,$_POST['email']);
     $number = mysqli_real_escape_string($conn,$_POST['number']);
     $msg = mysqli_real_escape_string($conn,$_POST['message']);
+    $to = "yassine.berqiqch@gmail.com"; // this is my Email address
+    $from = $_POST['email']; // this is the sender's Email address
+	$subject = "Thank you for contact me";
+	$nm = $_POST['name'];
+	$em = $_POST['email'];
+	$nb = $_POST['number'];
+	$mg = $_POST['message'];
+	$msg1 = $nm . " wrote the following:" . "\n\n" . $_POST['message'];
+    $msg2 = "Here is a copy of your message " . $nm . "\n\n" . $_POST['message'];
+	$headers = "From:" . $from;
+    $headers2 = "From:" . $to;
 
     $select_message = mysqli_query($conn,"SELECT * FROM `contact_form` WHERE name = '$name' AND email = '$email' AND number = '$number' AND message = '$msg'") or die ('query failed');
 
     if( mysqli_num_rows($select_message) > 0){
         $message[]= 'message send already!';
+
     }else {
         mysqli_query($conn,"INSERT INTO `contact_form`(name , email , number , message) VALUES ('$name','$email', '$number', '$msg')") or die ('query failed');
-        $message[]= 'message send successfully!';
+        mail($to,$nm,$mg,$headers);
+		mail($from,$subject,$msg2,$headers2);
+        $message[]= 'Thank you for your message! We will get back to you as soon as possible!';
     }
 
 }
