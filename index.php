@@ -215,7 +215,7 @@ if (isset($message)){
             <div class="box" data-aos="zoom-in">
                 <i class="fas fa-bullhorn"></i>
                 <h3>Digital Marketing</h3>
-                <p>Online Marketing , Social Media, Web-Based Advertising</p>
+                <p>Online Marketing , Social Media, and Web-Based Advertising</p>
             </div>
 
             <div class="box" data-aos="zoom-in">
